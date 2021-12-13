@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 #script que calcula todos los numero de la conjetura de collatz
 #No pierdas tiempo con esto anda a hacer otras cosas  :(
 
 def NumerosConjetura(numeroEntrada):
-    """Devuelve una lista con 3 elementos.\n0- una lista con todos los numeros\n1- numero de elementos\n2- numero maximo de la lista\n3- posicion del numero maximo"""
+    """Devuelve una lista con 3 elementos.\n0- una lista con todos los números\n1- número de elementos\n2- número máximo de la lista\n3- posición del número máximo"""
     numeroEntrada=int(abs(numeroEntrada))
     if not(numeroEntrada): numeroEntrada=1 #eliminando valores no fraccion ni negativos 
     numeros=[] #lista de nros
@@ -33,9 +34,9 @@ if __name__=="__main__":
     print("Conjetura de collatz")
     numero=abs(int(input(" >>> ")))
     lista=NumerosConjetura(numero)
-    print(" Numero de variables ciclo : "+str(lista[1]))
-    print(" Numero Maximo : "+str(lista[2]))
-    print(" Posicion Numero Maximo : "+str(lista[3]))
+    print(" Número de variables ciclo : "+str(lista[1]))
+    print(" Número Máximo : "+str(lista[2]))
+    print(" Posicion Número Máximo : "+str(lista[3]))
     input("> presione enter para continuar ")
     contador=0
     for x in lista[0]:

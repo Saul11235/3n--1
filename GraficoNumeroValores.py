@@ -10,10 +10,10 @@ def InputDefecto(texto,valorPorDefecto):
     if valor==0:valor=1
     return(valor)
 
-print(" Valores maximos en la serie de collatz")
+print(" Valores máximos en la serie de collatz")
 print(" los valores en parantesis son por defecto\n")
-minimo=InputDefecto(" Numero minimo (def 1) : ",1)
-maximo=InputDefecto(" Numero maximo (def 1000) :",1000)
+minimo=InputDefecto(" Numero mínimo (def 1) : ",1)
+maximo=InputDefecto(" Numero máximo (def 1000) :",1000)
 intervalo=InputDefecto(" Intervalo (def 1) : ",1)
 print("\nCalculando los valores, espere....")
 
@@ -32,7 +32,7 @@ listaDeValoresY=[] #valor max serie collatz
 cicloValoresDeEntrada=True
 numeroCiclo=minimo
 while cicloValoresDeEntrada:
-    valorY=NumerosConjetura(numeroCiclo)[2]
+    valorY=NumerosConjetura(numeroCiclo)[1]
     valorX=numeroCiclo
     listaDeValoresX.append(valorX)
     listaDeValoresY.append(valorY)
@@ -49,9 +49,9 @@ while cicloValoresDeEntrada:
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 ax.scatter(listaDeValoresX,listaDeValoresY)
-plt.title("Número Máximo Serie collatz "+str(minimo)+" - "+str(maximo))
+plt.title("Número de valores de la Serie collatz, desde "+str(minimo)+" hasta "+str(maximo))
 plt.xlabel("Números analizados")
-plt.ylabel("Valor máximo serie Collatz")
+plt.ylabel("Número total de valores de la serie")
 plt.show()
 
 
