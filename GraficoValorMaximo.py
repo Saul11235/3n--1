@@ -13,7 +13,7 @@ def InputDefecto(texto,valorPorDefecto):
 print(" Valores maximos en la serie de collatz")
 print(" los valores en parantesis son por defecto\n")
 minimo=InputDefecto(" Numero minimo (def 1) : ",1)
-maximo=InputDefecto(" Numero maximo (def 1000) :",1000)
+maximo=InputDefecto(" Numero maximo (def 2000) :",2000)
 intervalo=InputDefecto(" Intervalo (def 1) : ",1)
 print("\nCalculando los valores, espere....")
 
