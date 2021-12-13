@@ -48,6 +48,9 @@ while cicloValoresDeEntrada:
 import matplotlib.pyplot as plt
 fig, ax = plt.subplots()
 ax.scatter(listaDeValoresX,listaDeValoresY)
+plt.title("Numero Máximo Serie collatz "+str(minimo)+" - "+str(maximo))
+plt.xlabel("numeros analizados")
+plt.ylabel("Valor máximo serie Collatz")
 plt.show()
 
 
