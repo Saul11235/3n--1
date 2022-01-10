@@ -73,4 +73,6 @@ algunos links que te pueden servir si tienes algún interés en esto, (dicen que
 
 - Veritasium (Muy entretenido) [The Simplest Math Problem No One Can Solve - Collatz Conjecture - YouTube](https://www.youtube.com/watch?v=094y1Z2wpJg) 
 
+- Mismo video, pero ahora en español [Link video](https://www.youtube.com/watch?v=q_dvxXc7d2Y)
+
 - Conjetura de Collatz wikipedia [Conjetura de Collatz - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Conjetura_de_Collatz) 
